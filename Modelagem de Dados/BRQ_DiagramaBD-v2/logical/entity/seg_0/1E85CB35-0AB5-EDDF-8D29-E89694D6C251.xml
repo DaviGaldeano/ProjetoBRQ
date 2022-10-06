@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E85CB35-0AB5-EDDF-8D29-E89694D6C251" name="T_ASSET">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:06:22 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_asset" id="5379FA2C-48C3-BCC2-DDA8-EAC1AC0118DB">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:06:46 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_asset" id="CF1CF714-33D3-B0CD-4144-DE2C821E14EB">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:07:18 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_asset" id="D77E31DC-B902-AB96-85B5-4274FACC8BCB">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:07:35 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ativa" id="541F03DC-6C95-599C-BA71-7C9D2DFE33F7">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:07:52 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_integ" id="54B5AE2E-81CE-E159-0D63-AB0CE28C4D05">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:08:48 UTC</createdTime>
+<generatorID>D711237F-AC61-65CE-E145-C0A9C94322F1</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>65B7F4F6-5E33-A505-439B-5F81B68DEA94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="819F2C8C-DE9B-25B4-9233-182AE8B75B71" name="T_ASSET PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-04 00:07:15 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5379FA2C-48C3-BCC2-DDA8-EAC1AC0118DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

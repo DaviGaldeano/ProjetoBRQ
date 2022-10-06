@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="766BADCB-EF8E-75C3-AAC9-6B39BD6E4357" name="T_GATILHO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>DA0D4583-B830-690B-4B24-D659FFC2BB57</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_gatilho" id="9DEAC074-67E5-384A-CF63-753EEB00C5EC">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>37DD0F4A-7FBF-70D7-71F8-2B709FD14DA3</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_gatilho" id="3AB7CAEA-09C8-A076-F519-09D656BABB74">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>D1501C3E-E1E2-A4E4-15CC-D55EDED3A36C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_periodo" id="65E038B7-F76F-FE98-FD70-AA8C8CE7554B">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>5B94F67F-E2A8-5134-5D4B-A31022E4D44C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_disparo" id="7B1963F3-81D3-AA7F-879B-E583A34DDC44">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>CE254722-D216-C65D-981C-A7F191299C0D</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao" id="993903DB-A181-D7A2-645E-D2B90D7C1E3F">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>43B38BB5-58FB-6AEA-CC02-87D1E1726ACF</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F7C8976-C1C6-C3E1-F7AE-D4BC1CFE2737" name="T_GATILHO_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>42609D61-8B94-5723-3CCA-1D5596487C9D</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DEAC074-67E5-384A-CF63-753EEB00C5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

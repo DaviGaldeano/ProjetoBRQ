@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="211BE236-94E1-CB18-8ABF-DEDF8719E455" name="T_COMODO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>DF9C70F0-EF52-DA85-1048-31375DEF7F0E</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_comodo" id="AF0B18AF-9205-6823-97C3-2D34F9BCBD7E">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>FB6917BF-23BF-B284-6303-C46633E244AF</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_comodo" id="33ED344A-98B2-6147-B2DB-C8D38E15701D">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>2D0C42F9-4CB0-748A-1868-E39CBE9CCD9D</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comodo" id="EC5D128A-1969-6F48-460D-6B04C292EC61">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>E03A7B5F-E6A0-4DDC-2E58-541B45A86E99</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD01F45E-3DDF-66CE-9F4C-AF40F5062414" name="T_COMODO_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>CEA98248-55C2-D0B8-78CA-2F75EB89A9E2</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF0B18AF-9205-6823-97C3-2D34F9BCBD7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

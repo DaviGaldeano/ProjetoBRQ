@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5E9428A-53FE-A2A9-9C0D-47E56545C33B" name="T_CIDADE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>29EF305B-2AA9-DD3E-C3AD-53F938927EA6</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="9EB945A4-7DAC-B3D0-F0B2-CC28EADA79EF">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>A4D83748-EBA0-2DC9-5DED-749327163A3B</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="614F6D38-7C80-FD12-6C9E-DD19DA7AD92C">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>813B6BD8-A56B-1DFF-E0E9-DA9B233119ED</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ESTADO_cd_estado" id="7F7B3217-21E5-EC61-95CC-1B4339EC55B5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>D425F609-1EC8-8132-93F1-8DCD3C180DE2</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="264BBF76-0B47-6DFE-285D-419E2AC586CA" referredColumn="3CE498E2-564F-C0F8-DDED-3781563C84AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72121B8B-25D9-EC1B-31C0-581AF6E8AD89" name="T_CIDADE_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>DE049F56-B85B-0E04-DFC2-7470E58CE15C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB945A4-7DAC-B3D0-F0B2-CC28EADA79EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EDEAD29-56DD-1644-297C-5968B6698BAF" name="T_CIDADE_T_ESTADO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>ECDDCB1A-CDCC-ED27-6699-E3C60160B75C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F7B3217-21E5-EC61-95CC-1B4339EC55B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

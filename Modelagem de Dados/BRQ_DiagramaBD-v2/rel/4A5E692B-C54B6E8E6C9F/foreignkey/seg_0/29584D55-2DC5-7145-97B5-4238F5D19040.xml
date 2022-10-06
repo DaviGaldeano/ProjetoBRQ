@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29584D55-2DC5-7145-97B5-4238F5D19040" containerWithKeyObject="936E3636-0CC2-C220-6EED-B9884ECF7975" localFKIndex="9D60D661-6390-5964-2FD1-05F747F0F729" name="COM_CASA_T_COMODO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>596E5B59-AAE7-8CEC-34E1-5A845993FAA4</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<referredTableLongName>T_COMODO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA25CDD2-D079-6515-64C0-0FA3B70C04C6</referredTableID>
+<keyObject>AEAEAC3E-CE21-32DB-4115-5F7A6DCFF1D7</keyObject>
+<referredKeyID>AEAEAC3E-CE21-32DB-4115-5F7A6DCFF1D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_comodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

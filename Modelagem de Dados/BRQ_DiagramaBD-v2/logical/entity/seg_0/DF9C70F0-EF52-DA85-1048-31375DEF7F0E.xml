@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF9C70F0-EF52-DA85-1048-31375DEF7F0E" name="T_COMODO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:10:29 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_comodo" id="FB6917BF-23BF-B284-6303-C46633E244AF">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:10:40 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_comodo" id="2D0C42F9-4CB0-748A-1868-E39CBE9CCD9D">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:10:55 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comodo" id="E03A7B5F-E6A0-4DDC-2E58-541B45A86E99">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:11:18 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEA98248-55C2-D0B8-78CA-2F75EB89A9E2" name="T_COMODO PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:10:53 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB6917BF-23BF-B284-6303-C46633E244AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

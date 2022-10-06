@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1645E61E-9372-7D2F-5F5E-E3DC452DE072" name="T_DISPOSITIVO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:13:45 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dispositivo" id="8467131B-B860-AE83-3A3B-4E4610B14215">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:13:45 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dispositivo" id="AC3AAE39-5397-9D66-FF9D-891E847E4FAB">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:13:45 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_dispositivo" id="7FB3C580-2789-A4AD-DD16-83E80CF49F75">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:13:45 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ativa" id="7A97EFC4-0ACD-611B-2C7B-9DB1B03A8B26">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:37:51 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_comodo" id="75D84590-3DFB-08A3-7B8D-9A93ADFAE2D8">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:13:21 UTC</createdTime>
+<generatorID>CCF490DB-0FDF-A537-0431-71B6334281F4</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>FB6917BF-23BF-B284-6303-C46633E244AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F69CAA7-DD6E-73E0-5316-8AB0369B1E8F" name="T_DISPOSITIVO PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:09:36 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8467131B-B860-AE83-3A3B-4E4610B14215</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

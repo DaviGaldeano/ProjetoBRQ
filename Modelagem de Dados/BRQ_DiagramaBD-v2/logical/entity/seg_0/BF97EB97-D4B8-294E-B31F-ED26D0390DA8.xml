@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF97EB97-D4B8-294E-B31F-ED26D0390DA8" name="GAT_DISP">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:26:33 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gatilho" id="83E37C6C-D579-AFC5-39DD-D666AD88EEBE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:27:02 UTC</createdTime>
+<generatorID>1B0D42D1-5226-61E2-9BA8-472500A16197</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>37DD0F4A-7FBF-70D7-71F8-2B709FD14DA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_dispositivo" id="8966F54D-CBD1-B3DA-9528-75D8D10FBC63">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:14:03 UTC</createdTime>
+<generatorID>692E4750-E238-131D-A7EA-01F88A720893</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>8467131B-B860-AE83-3A3B-4E4610B14215</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="768C3268-E499-5828-B41A-B4E4EBA71BD4" name="GATILHO_BANHEIRA PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:27:02 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83E37C6C-D579-AFC5-39DD-D666AD88EEBE</attributeRef>
+<attributeRef>8966F54D-CBD1-B3DA-9528-75D8D10FBC63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

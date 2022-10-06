@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42B48BBF-9DFE-7362-C7A1-BA734005FD6F" name="GAT_DISP">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>BF97EB97-D4B8-294E-B31F-ED26D0390DA8</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GATILHO_cd_gatilho" id="CE1732B5-DA20-1C01-93D2-82462A539117">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>83E37C6C-D579-AFC5-39DD-D666AD88EEBE</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBABA0BA-8A69-CBA7-F7A6-C53C7F0277DB" referredColumn="9DEAC074-67E5-384A-CF63-753EEB00C5EC"/>
+</associations>
+</Column>
+<Column name="T_DISPOSITIVO_cd_dispositivo" id="D5F5509C-EEDB-9743-62DE-773CDEAAD5E5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>8966F54D-CBD1-B3DA-9528-75D8D10FBC63</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5236E322-C47A-098B-E9EF-FA55E17035E6" referredColumn="8878822C-41A1-5939-82B0-C425CBE5B4E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FE17670-5094-5A09-216F-EBDC8FC976F6" name="GAT_DISP_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>768C3268-E499-5828-B41A-B4E4EBA71BD4</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1732B5-DA20-1C01-93D2-82462A539117"/>
+<colUsage columnID="D5F5509C-EEDB-9743-62DE-773CDEAAD5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FA9D14D-B0E3-809F-00E4-C87D65B5B5B0" name="GAT_DISP_T_GATILHO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>1B0D42D1-5226-61E2-9BA8-472500A16197</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1732B5-DA20-1C01-93D2-82462A539117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DBFBE71-271C-1601-B99D-CCBD95965011" name="GAT_DISP_T_DISPOSITIVO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>692E4750-E238-131D-A7EA-01F88A720893</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F5509C-EEDB-9743-62DE-773CDEAAD5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

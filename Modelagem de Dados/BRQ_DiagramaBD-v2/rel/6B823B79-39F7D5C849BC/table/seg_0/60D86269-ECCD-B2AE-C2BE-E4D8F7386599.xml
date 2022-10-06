@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60D86269-ECCD-B2AE-C2BE-E4D8F7386599" name="T_INTEGRACOES">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>9F60C375-CBF2-9E6D-0DEE-D03357C609AF</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_integ" id="7689EBED-480F-36F8-6767-0C97987EABBC">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>65B7F4F6-5E33-A505-439B-5F81B68DEA94</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_integ" id="DC19CD95-4028-D92A-4C85-A5FE9EC63704">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>1EC9969A-0E07-5EF2-FCC4-FB9D54B1E51D</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_linkapi" id="7C5B8C64-AE66-E307-07E1-EBF8E9237C0C">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>9AA733BA-BE09-84DF-400C-8C7F23D6EFEF</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CASA_cd_casa" id="86F01B21-0667-EA6A-695B-84A31470BD10">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>E16527B7-DBB9-50AE-2EF4-CEC56BDE10DC</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3C2B792-457A-E1AA-272C-0EB433EF0077" referredColumn="BCA5364D-C179-67C2-04A9-3AAF2184C390"/>
+</associations>
+</Column>
+<Column name="ds_integ" id="19645099-B2BC-6D9A-A184-B55E70E56539">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>7664B9D5-7DDE-96A4-A46B-563E22FC8FEF</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_token" id="16C10798-3FBE-777C-B911-C77AB672D51E">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>071B99A4-1872-6A73-27F1-55BEADB5D69D</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_user" id="3DB271DD-43B3-0AA5-C9A5-68B486F56DD2">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>CD022A1E-4478-1908-7367-9C1107D765D2</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scr_password" id="8E06A52C-CD30-A4AD-D107-313A2F405D1B">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>2885978E-D819-E30C-428E-FED630CCA15A</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="192B524B-8FF8-3286-A547-4E78811B38DE" name="T_INTEGRACOES_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>6CFADBC2-0C2E-00DD-92EF-83F9DA87ED3A</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7689EBED-480F-36F8-6767-0C97987EABBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="941801C9-BC1A-B2B1-0F9D-B0B616B12F89" name="T_INTEGRACOES_T_CASA_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>C94D89D8-6CC5-4FCB-CDF7-225C4A91EF5F</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F01B21-0667-EA6A-695B-84A31470BD10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

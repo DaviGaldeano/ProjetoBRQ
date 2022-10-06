@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29EF305B-2AA9-DD3E-C3AD-53F938927EA6" name="T_CIDADE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidade" id="A4D83748-EBA0-2DC9-5DED-749327163A3B">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>CAB3957C-67AB-55DD-04B1-38654FFB4D8B</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="813B6BD8-A56B-1DFF-E0E9-DA9B233119ED">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>2443C33B-D661-63AC-A430-A3875C2F31DB</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="D425F609-1EC8-8132-93F1-8DCD3C180DE2">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<generatorID>ECDDCB1A-CDCC-ED27-6699-E3C60160B75C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>D415A00D-D827-FDD3-7664-AC11C98FAB88</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>D0B3DF43-F942-9A5E-AFFB-475BE27DB607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE049F56-B85B-0E04-DFC2-7470E58CE15C" name="T_CIDADE PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4D83748-EBA0-2DC9-5DED-749327163A3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

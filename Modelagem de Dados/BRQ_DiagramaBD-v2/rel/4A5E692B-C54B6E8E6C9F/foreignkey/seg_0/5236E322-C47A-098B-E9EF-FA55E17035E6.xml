@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5236E322-C47A-098B-E9EF-FA55E17035E6" containerWithKeyObject="42B48BBF-9DFE-7362-C7A1-BA734005FD6F" localFKIndex="8DBFBE71-271C-1601-B99D-CCBD95965011" name="GAT_DISP_T_DISPOSITIVO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>692E4750-E238-131D-A7EA-01F88A720893</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<referredTableLongName>T_DISPOSITIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1BB65A4-06B4-9EEC-1BDD-6E7C04956394</referredTableID>
+<keyObject>D15ED6A3-9414-B6C6-8729-85D59AAF5973</keyObject>
+<referredKeyID>D15ED6A3-9414-B6C6-8729-85D59AAF5973</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_dispositivo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

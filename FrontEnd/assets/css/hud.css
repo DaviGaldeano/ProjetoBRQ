@@ -1,0 +1,63 @@
+
+.masthead{
+    background-size: cover;
+    min-height: 100vh;
+    position:sticky;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    height: 100vh;
+
+}
+
+
+
+
+@media screen and (min-width: 630px) {
+    .tst {
+            border: 1px solid blue;
+
+            
+        }
+                .fiximg {
+                    margin: -2rem;
+                }
+}
+
+.container,
+.row {
+    height: 100%;
+    min-height: 100%;
+}
+
+html,
+body {
+    height: 0%;
+}
+
+.fiximg img{
+    width: 5.4rem;
+    margin: -0.3rem;
+    
+}
+
+.nv{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.smallImg{
+    width: 1.8rem;
+    margin-right: 3rem;
+    margin-top: -0.2rem;
+    
+}
+
+.txtFix{
+    margin-left:-3rem;
+    margin-right: 2.5rem;
+    font-style: italic;
+}
+
+

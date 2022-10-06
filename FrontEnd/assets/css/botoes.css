@@ -1,0 +1,24 @@
+
+
+.button-85 {
+    color: rgba(255, 255, 255, 100.00);
+    background: rgba(160, 209, 218, 0.1);
+    border: 1px white solid;
+    cursor: pointer;
+    border-radius: 0px;
+    touch-action: manipulation;
+}
+
+
+@media (min-width: 768px) {
+  .button-85 {
+    padding: 0 2.6rem;
+  }
+}
+
+.button{
+    padding: 1.5rem;
+    margin: 2.5rem;
+    
+}
+

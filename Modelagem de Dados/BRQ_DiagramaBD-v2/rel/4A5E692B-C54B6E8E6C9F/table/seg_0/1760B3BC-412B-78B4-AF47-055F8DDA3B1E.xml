@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1760B3BC-412B-78B4-AF47-055F8DDA3B1E" name="T_ENDERECO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>489FA181-BB13-AA68-B926-DAE979306B40</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_endereco" id="AA267508-BDB0-7FA6-B9D7-EAD2D8714A87">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>884E3EFA-1E45-5BB1-EECD-CAFB7A4EC0F9</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TP_LANGRAD_cd_langradouro" id="C4B286BF-0949-AAD8-48D9-FEF58DEA4A4E">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>A89D022B-4B40-B299-580B-2A034CA23A4E</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4017EED8-80F4-000F-4A19-8911CE189F51" referredColumn="37EB9376-F6F9-5ED7-2174-86C95BEE3F23"/>
+</associations>
+</Column>
+<Column name="T_BAIRRO_cd_bairro" id="E18E2E10-5333-3D7E-A4A5-22AEEB013977">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>256458DB-8782-E81D-4412-E3AAF1EC5DA8</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4C36A62-1CEB-69AA-8A57-6FFA1AAB3AEE" referredColumn="C64B36E1-670A-AEE1-190E-4BD4DD554124"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CC1B5C2-25AC-19FE-BBA8-F29436F1F4D7" name="T_ENDERECO_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>39CDEDFE-BF84-4441-136A-511E38A564D6</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA267508-BDB0-7FA6-B9D7-EAD2D8714A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84FB8EEA-5E5B-8A21-E9FC-1B2428634FEC" name="T_ENDERECO_T_TP_LANGRAD_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>9376065C-58F3-7730-EDE9-61CD369FD2EC</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B286BF-0949-AAD8-48D9-FEF58DEA4A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7D28E3E-5937-5D6C-4581-E2B8BD36E4EE" name="T_ENDERECO_T_BAIRRO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>3AD3BE37-3171-6D13-47D2-FD3C42EAA200</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E18E2E10-5333-3D7E-A4A5-22AEEB013977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

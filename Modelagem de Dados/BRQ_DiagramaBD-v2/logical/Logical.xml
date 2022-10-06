@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A6FDA23B-A019-B7DF-196F-01E1E0FC4391" mainViewID="E95FC6FE-62A0-AFE2-F438-31884E3A4B32">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 22:52:42 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

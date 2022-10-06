@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBABA0BA-8A69-CBA7-F7A6-C53C7F0277DB" containerWithKeyObject="42B48BBF-9DFE-7362-C7A1-BA734005FD6F" localFKIndex="7FA9D14D-B0E3-809F-00E4-C87D65B5B5B0" name="GAT_DISP_T_GATILHO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>1B0D42D1-5226-61E2-9BA8-472500A16197</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<referredTableLongName>T_GATILHO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>766BADCB-EF8E-75C3-AAC9-6B39BD6E4357</referredTableID>
+<keyObject>4F7C8976-C1C6-C3E1-F7AE-D4BC1CFE2737</keyObject>
+<referredKeyID>4F7C8976-C1C6-C3E1-F7AE-D4BC1CFE2737</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_gatilho</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

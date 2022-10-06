@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="936E3636-0CC2-C220-6EED-B9884ECF7975" name="COM_CASA">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>5E4EBBC4-E609-9AFB-313D-FF5DFE4D687C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_COMODO_cd_comodo" id="E94068DD-9601-8ED0-2483-AC2B3C49AC36">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>E9FF94AC-B292-A61E-E759-47C171EB46B9</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29584D55-2DC5-7145-97B5-4238F5D19040" referredColumn="74E51444-2080-005A-B9AD-2D91D86C0132"/>
+</associations>
+</Column>
+<Column name="T_CASA_cd_casa" id="7D075A91-92CA-FAF9-AC3B-24505D5123C5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>437939F6-C007-025E-3820-BBC1A37AD776</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAC0178A-F6EA-E6BE-5CEE-304514CD42EA" referredColumn="D5ABEAC4-853D-D3C2-D5A2-ED2E646FADDC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3B6BAD1-595A-6A2B-AE67-DB067CF9BE9C" name="COM_CASA_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>BC64E8BF-597C-59C6-4CCA-137F7CC9B654</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94068DD-9601-8ED0-2483-AC2B3C49AC36"/>
+<colUsage columnID="7D075A91-92CA-FAF9-AC3B-24505D5123C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D60D661-6390-5964-2FD1-05F747F0F729" name="COM_CASA_T_COMODO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>596E5B59-AAE7-8CEC-34E1-5A845993FAA4</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94068DD-9601-8ED0-2483-AC2B3C49AC36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5215285-A0DA-2FEF-B8C6-1C8DB84E0B42" name="COM_CASA_T_CASA_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>8D82AB93-CD8A-A00B-FB3A-935F39B79AB5</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D075A91-92CA-FAF9-AC3B-24505D5123C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

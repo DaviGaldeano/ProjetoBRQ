@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C996262B-A484-AD08-B960-311F148F99AE" name="T_BAIRRO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>D406B5FA-9126-01A0-BE64-00409454E1C5</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="E9082CCA-5FD3-7BBA-D4BE-F6179F1E5C02">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>1AB166BD-357A-ECA0-510E-7ED255326B8B</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="D51F945A-7D6C-F648-8688-44A9863EDE0F">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>8025961F-95B7-7F3C-B21F-73D4619D913C</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CIDADE_cd_cidade" id="F1C22D9F-4C38-1C79-8C71-94FDE942CAD9">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>796A348E-B454-838E-B157-CC15B2C6B7E7</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03099221-6379-51BC-6938-AC22A5FEA481" referredColumn="9EB945A4-7DAC-B3D0-F0B2-CC28EADA79EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7693119F-024C-C697-B9F7-15CF50944A61" name="T_BAIRRO_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:51 UTC</createdTime>
+<generatorID>F741A92E-6170-1C68-7512-1B7EC71C3A38</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9082CCA-5FD3-7BBA-D4BE-F6179F1E5C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE2E331-59EE-3EC8-EC73-8BC45F2FD380" name="T_BAIRRO_T_CIDADE_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:24:52 UTC</createdTime>
+<generatorID>B7B5E932-6CCB-0698-6167-412BD8144451</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C22D9F-4C38-1C79-8C71-94FDE942CAD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

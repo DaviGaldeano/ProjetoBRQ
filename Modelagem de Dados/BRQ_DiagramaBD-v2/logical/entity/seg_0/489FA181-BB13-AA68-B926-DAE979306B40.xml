@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="489FA181-BB13-AA68-B926-DAE979306B40" name="T_ENDERECO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="884E3EFA-1E45-5BB1-EECD-CAFB7A4EC0F9">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>7159BEDD-93DA-1C7C-6620-28990E97F7B2</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_langradouro" id="A89D022B-4B40-B299-580B-2A034CA23A4E">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<generatorID>9376065C-58F3-7730-EDE9-61CD369FD2EC</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>089D2440-F3FD-FB8C-06B7-1B63BC184105</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>2177D279-26FC-312E-12FE-5C126475F968</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="256458DB-8782-E81D-4412-E3AAF1EC5DA8">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<generatorID>3AD3BE37-3171-6D13-47D2-FD3C42EAA200</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<importedID>34BDDEB8-877D-4F92-AB3D-BA859B673FBD</importedID>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="true"/>
+</engineerTo>
+<referedAttribute>1AB166BD-357A-ECA0-510E-7ED255326B8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39CDEDFE-BF84-4441-136A-511E38A564D6" name="T_ENDERECO PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 23:08:58 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0CF8383-A377-8FE8-E911-890373D5701C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>884E3EFA-1E45-5BB1-EECD-CAFB7A4EC0F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

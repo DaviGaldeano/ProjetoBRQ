@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6AF54395-3896-918B-7AC9-2781366BE342" containerWithKeyObject="8155D56D-72BF-BCE0-B2F3-8A1DE5A6D2C2" localFKIndex="6EFB37F7-FA84-78FC-F903-6E5137D1C172" name="T_BAIRRO_T_CIDADE_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-05 23:15:31 UTC</createdTime>
+<generatorID>B7B5E932-6CCB-0698-6167-412BD8144451</generatorID>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<referredTableLongName>T_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>93E19885-585D-82FF-E687-EABE7B0E9DAF</referredTableID>
+<keyObject>459129D7-D805-13CB-D58D-C7CE36A7294A</keyObject>
+<referredKeyID>459129D7-D805-13CB-D58D-C7CE36A7294A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

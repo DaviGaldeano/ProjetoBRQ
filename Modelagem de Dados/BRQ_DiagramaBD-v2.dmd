@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BRQ_DiagramaBD-v2" id="018EE5E9-8E8C-C828-6979-CACA635BDBCA" version="3.5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2022-10-03 22:52:42 UTC</createdTime>
+<ownerDesignName>BRQ_DiagramaBD-v2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>018EE5E9-8E8C-C828-6979-CACA635BDBCA</designId>
+</OSDM_Design>
